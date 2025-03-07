@@ -1,5 +1,5 @@
 title;description;url;image
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/ashmithhmaddala/portfolioWebsite/;2.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;Hidden due to encryption keys :);2.png
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://ashmithmaddala.streamlit.app/;3.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://ashmithmaddala.streamlit.app/;4.png
 Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://ashmithmaddala.streamlit.app/;5.png
