@@ -6,7 +6,7 @@ def send_email(message):
     host = "smtp.gmail.com"
     port = 465
     username = "ashmith.maddala@gmail.com"
-    password = os.getenv("GMAIL_PASSWORD")
+    password = "kgub wrcd jdmg cllh"
 
     if not password:
         print("Error: GMAIL_PASSWORD is not set.")
