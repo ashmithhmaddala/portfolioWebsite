@@ -9,6 +9,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Debug Secrets
+        run: |
+          if [ -z "$GMAIL_PASSWORD" ]; then
+            echo "GMAIL_PASSWORD is NOT set!"
+            exit 1
+          else
+            echo "GMAIL_PASSWORD is set."
+          fi
+        env:
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+
       - name: Run Email Script
         env:
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
